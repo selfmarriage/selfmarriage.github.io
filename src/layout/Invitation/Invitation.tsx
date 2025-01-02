@@ -14,11 +14,11 @@ const Invitation = () => {
   const { greeting } = data;
 
   const eventDetails = {
-    title: '전홍준 \uD83D\uDC8D 최혜인 결혼식',
-    startDateTime: dayjs('2024-11-23 17:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
-    endDateTime: dayjs('2024-11-23 18:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
+    title: '이정환 \uD83D\uDC8D 이서진 결혼식',
+    startDateTime: dayjs('2025-5-15 17:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
+    endDateTime: dayjs('2024-5-15 18:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
     details: greeting.message,
-    location: 'MJ컨벤션, 대한민국 경기도 부천시 소사구 소사본동 65-7',
+    location: '여의도 더파티움',
   };
 
   const googleCalendarUrl = `https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(eventDetails.title)}&dates=${eventDetails.startDateTime}/${eventDetails.endDateTime}&details=${encodeURIComponent(eventDetails.details)}&location=${encodeURIComponent(eventDetails.location)}&sf=true&output=xml`;
