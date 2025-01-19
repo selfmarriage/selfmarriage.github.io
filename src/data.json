@@ -1,33 +1,33 @@
 {
   "greeting": {
-    "title": "이정환 \uD83D\uDC8D 이서진\n우리, 결혼합니다!",
+    "title": "전기톱맨 \uD83D\uDC8D 전기톱우먼\n우리, 결혼합니다!",
     "message": "매년 5월 15일이 되면\n저희는 이날의 사진첩을 꺼내보며\n인생에서 가장 행복했던 기억을 떠올릴 것입니다\n그때, 그 사진 속에 저희와 함께 웃고 있는\n여러분이 있었으면 좋겠습니다",
     "host": {
       "groom": {
-        "name": "정환",
+        "name": "기톱맨",
         "relation": "아들",
         "parents": [
           {
             "relation": "아버지",
-            "name": "정빠"
+            "name": "기톱아빠"
           },
           {
             "relation": "어머니",
-            "name": "정맘"
+            "name": "기톱맘"
           }
         ]
       },
       "bride": {
-        "name": "서진",
+        "name": "기톱",
         "relation": "딸",
         "parents": [
           {
             "relation": "아버지",
-            "name": "서빠"
+            "name": "기톱아빠"
           },
           {
             "relation": "어머니",
-            "name": "서맘"
+            "name": "기톱맘"
           }
         ]
       }
@@ -39,10 +39,10 @@
       "host": "신랑측",
       "accountInfo": [
         {
-          "name": "이정환",
+          "name": "전기톱맨",
           "relation": "신랑",
           "bank": "기업은행",
-          "account": "010-4995-6430"
+          "account": "010-1234-1234"
         }
       ]
     },
@@ -50,10 +50,10 @@
       "host": "신부측",
       "accountInfo": [
         {
-          "name": "이서진",
+          "name": "전기톱우먼",
           "relation": "신부",
           "bank": "기업은행",
-          "account": "010-4995-6430"
+          "account": "010-1234-1234"
         }
       ]
     }
